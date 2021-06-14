@@ -20,10 +20,10 @@ stages {
 		bat 'mvn compile'
             }
         }
-	stage('deploy') {
+	stage('Deploy') {
             steps {
                 echo 'deploy the code ...'
-		bat 'mvn deploy'
+		
             }
         }
     }
